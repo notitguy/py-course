@@ -13,21 +13,24 @@ emptylist = []
 # print(len(data))
 
 # users.append('Elsa')
-# print(users)
 
 # users += ['Jason']
-# print(users)
 
 # users.extend(['Robert', 'Jimmy'])
-# print(users)
 
 # users.extend(data)
-# print(users)
 
 users.insert(0, 'Bob')
-# print(users)
 
 users[2:2] = ['Eddie', 'Alex']
-print(users)
 
-# https://youtu.be/H2EJuAcrZYU?t=6936
+del users[0]
+
+data.clear()
+
+users[1:1] = ['dave']
+# users.sort()
+users.sort(key=str.lower)
+# print(users)
+
+users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
